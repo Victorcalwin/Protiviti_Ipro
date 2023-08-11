@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+.attachment::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.attachment::before{
+content: 'Upload Image';
+display: inline-block;
+background: linear-gradient(top, #f9f9f9, #e3e3e3);
+/* border: 1px solid #999; */
+border-radius: 3px;
+padding: 5px 8px;
+outline: none;
+white-space: nowrap;
+cursor: pointer;
+text-shadow: 1px 1px #fff;
+font-weight: 700;
+font-size: 10pt;
+margin-left: 4px;
+}
+
+.MuiFormHelperText-root {
+  color: red !important;
+  font-size: 10px;
+}
+
+.nav .active{
+  background-color: #00A2B8;
+  color :#fff;
+  border: none;
+}
+.agreBtn{
+  margin: 0 5px;
+  border: 1px solid #ff3263;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background: transparent;
+}
+.agreBtn:hover{
+background-color: #ff3263;
+color: #fff;
+}

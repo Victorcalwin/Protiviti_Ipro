@@ -1,0 +1,17 @@
+::placeholder{
+    color:white;
+}
+
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 30px;
+    min-width: 40px;
+}
